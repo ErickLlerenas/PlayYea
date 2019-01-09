@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js.js"></script>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="https://playyea.com"><img src="../img/Logo.png" id="logo" alt="logo" width="50px" height="50px"></a></li>
+		</ul>
+	</nav>
+
+	<form action="php.php" method="post" onsubmit="return validar()">
+		<h1>Sign Up</h1>
+		<input type="text" placeholder="Ingresa usuario" name="input_user" maxlength="20" id="use" onfocus="comprobar()" autocomplete="off">
+		<input type="password" placeholder="Nueva contraseña" name="input_password" minlength="5" maxlength="20" id="password" onfocus="comprobar()">
+		<input type="password" placeholder="Confirar contraseña" name="input_verify_password" minlength="5" maxlength="20" id="password2" onfocus="comprobar()">
+		<button type="submit" onfocus="comprobar()" onclick="return comprobar()" id="logInBtn">Sign Up</button>
+		<h3 id="no"></h3>
+	</form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+[22-May-2018 17:29:15 America/Chicago] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/playyeac/public_html/siceuc/evaluaciones/index.php on line 26
+[22-May-2018 17:29:15 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/playyeac/public_html/siceuc/evaluaciones/index.php on line 30
+[22-May-2018 17:29:15 America/Chicago] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/playyeac/public_html/siceuc/evaluaciones/index.php on line 64
+[22-May-2018 17:29:16 America/Chicago] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/playyeac/public_html/siceuc/evaluaciones/index.php on line 26
+[22-May-2018 17:29:16 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/playyeac/public_html/siceuc/evaluaciones/index.php on line 30
+[22-May-2018 17:29:16 America/Chicago] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/playyeac/public_html/siceuc/evaluaciones/index.php on line 64
+[22-May-2018 17:54:27 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/playyeac/public_html/siceuc/evaluaciones/index.php on line 73
+[22-May-2018 17:54:28 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/playyeac/public_html/siceuc/evaluaciones/index.php on line 73
+[22-May-2018 17:54:28 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/playyeac/public_html/siceuc/evaluaciones/index.php on line 73
+[22-May-2018 17:54:29 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/playyeac/public_html/siceuc/evaluaciones/index.php on line 73

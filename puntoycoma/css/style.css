@@ -1,0 +1,58 @@
+html{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    background: black;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    transition: 0.3s;
+    background-color: rgb(202, 201, 201);
+    color: #000;
+}
+
+.main{
+    margin-top: 12%; 
+    color: white;
+    font-size: 3em;
+}
+
+#scdPYC{
+    margin: 0;
+    transform: rotate(180deg);
+}
+
+
+.download_links {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+.download_links:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}

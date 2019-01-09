@@ -1,0 +1,449 @@
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Product Sans Regular.ttf") format("truetype"),
+        url("../fonts/Product Sans Regular.woff") format("woff");
+}
+
+body,
+html{
+    font-family: 'Product Sans', sans-serif;
+	height: 100%;
+	width: 100%;
+	max-height: 1000px;
+	max-width: 3000px; 
+	margin: 0 auto; 
+}
+
+nav > ul {
+	background: rgba(255, 15, 30,0.8);
+ 	padding: 0;
+ 	margin: 0;
+ 	top: 0;
+ 	left: 0;
+    z-index: 100;
+    width: 100%;
+    list-style-type: none;
+    position: fixed;
+    text-align: center;
+}
+
+nav > ul > li{
+	display: inline-block;	
+	padding: 10px 0px;
+	color: #FFF;
+}
+
+nav > ul > li > a{
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+nav > ul > li > a:hover {
+    color: black;
+    transition: .3s;
+}
+nav > ul > li.menu{
+	display: none;
+}
+nav > ul > li:nth-child(2) {
+	background: rgba(0,0,0,0.4);
+	color: #FFF
+}
+
+div.container{
+	height: 100%;
+	width: 100%;
+}
+h1.title{
+	color: #2B2B2B;
+	text-align: center;
+	font-size: 10em;
+	position: relative;
+	top:15%;	
+	background-image: url(../img/Logo.png);		 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 150px, 150px;
+}
+h3.slogan{
+	color: #FFF;
+	font-size: 3em;
+	text-align: center;
+	position: relative;
+	top:10%;
+	text-shadow: 5px 0px 15px black;
+}
+
+article#PYM{
+	background: rgb(10,95,120);
+	font-size: 1.5em;
+	text-align: center;
+	color: #FFF;
+	position: relative;
+	width: 100%;
+}
+
+article h2.tituloPYM{
+	font-size: 3em;
+	position: relative;
+	top: 3%;
+}
+article strong.sloganPYM{
+	position: relative;
+	font-size: 1.5em;
+}
+article p.textoPYM{
+	position: relative;
+}
+img.capturas{
+	width: 20%;
+	margin: 3%;
+	height: 5%;
+	display: inline-block;
+}
+article button.ButtonPYM{
+	background: rgba(255,255,255,1);
+	border-radius: 15px;
+	border: none;
+	padding: 10px 0px;
+	color: #000221;
+	font-size: 1em;
+	transition: 600ms;
+	width: 20%;
+	position: relative;
+	margin: 0px auto 0px;
+	display: block;	
+	z-index: 50;
+	bottom: 10px;
+}
+article button.ButtonPYM:hover{
+	cursor: pointer;
+	transition: 600ms;
+	width: 27%;
+}
+
+article#Unknown{
+    background: #EFEFEF;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+article h2.Unknown{
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    height: 100%;
+}
+article p.UnknownDescription {
+    position: relative;
+    font-family: 1.2em;
+    font-weight: normal;
+    top: 52%;
+}
+/*********************************************<FOOTER>**********************************************/
+footer{
+	background: rgb(123, 50, 40);
+	color: white;
+	text-align: center;
+	width: 100%;
+	position: relative;
+	z-index: 60;
+}
+footer > div > h3{
+	top: 10px;
+	position: relative;
+}
+a{
+	color: #ffffff;
+}
+div.Integrante{
+	width: 30%;
+	height: 400px;
+	display: inline-block;
+	margin: 10px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px black;
+}
+div.Integrante > img{
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	margin: 5% auto 0;
+	transition: 0.3s;
+}
+div.Integrante > img:hover{
+	box-shadow: 0px 0px 100px rgb(120,12,45);
+	transition: 0.3s;
+
+}
+
+footer div a img{
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	display: inline-block;
+	top: 100%;
+	margin: 10px;
+	transition: 0.6s;
+}
+footer div a img:hover{
+	box-shadow: 0px 0px 30px rgb(10,60,120);
+	transition: 0.6s;
+}
+footer div{
+	width: 100%;
+}
+/*********************************************</FOOTER>**********************************************/
+
+/****<Animación del fondo negro>****/
+div.FondoNegro{
+	animation: back 3s ease-out;
+	left: 0;
+	position: fixed;
+	top: 0;
+	z-index: 50;
+}
+
+@keyframes back
+{
+	0%
+	{
+		background-color: rgba(0,0,0,1);
+		height: 100%;
+		width: 100%;
+	}
+	100%
+	{
+		background-color: rgba(255,255,255,0);
+		height: 100%;
+		width: 100%;
+	}
+}
+/****</Animación del fondo negro>****/
+/*******<cookies>***************************/
+div#cookies{
+	width: 100%;
+	height: 20px;
+	background: rgba(255,0,0,0.6);
+	color: white;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	z-index: 100;
+}
+button.button-cookies{
+	border: none;
+	background: rgba(0,0,0,0.8);
+	cursor:pointer;
+	color: white;
+	height: 20px;
+	padding: 0px 20px;
+	margin: 0px 25px;
+}
+/*******************</cookies>*******************/
+/**********************<Advice>********************/
+body footer div.advice{
+	background: #8A0808;
+}
+body::-webkit-scrollbar{
+	width: 1%;
+}
+body::-webkit-scrollbar-thumb{
+	background: rgba(255,0,54,1);
+	border-radius: 5px;
+}
+/*********************</Advice>********************/
+
+/*********************************************<MEDIAQUERYS>*********************************************************/
+@media screen and (max-width:950px){
+
+	div.Integrante > img{
+		width: 200px;
+		height: 200px;
+		border-radius: 100%;
+		}
+	div.Integrante{
+		height: 300px;
+	}
+	article button.ButtonPYM{
+		width: 30%;
+	}
+	article button.ButtonPYM:hover{
+		width: 30%;
+	}
+	img.capturas{
+		width: 25%;
+		margin: 5%;
+	}
+	img.captura3{
+		display: none;
+	}
+	
+}
+@media screen and (max-width:767px){
+
+	div.Integrante > img{
+		width: 130px;
+		height: 130px;
+		border-radius: 100%;
+		}
+	div.Integrante{
+		margin: 5px;
+		height: 200px;
+	}
+	h1.title{
+		font-size: 8em;
+		background-size: 120px, 120px;
+	}
+	h3.slogan{
+		font-size: 2em;
+	}
+	article button.ButtonPYM{
+		width: 30%;
+	}
+	article h2.tituloPYM{
+		font-size: 2em;
+	
+	}	
+	img.capturas{
+		width: 30%;
+	}	
+	div#cookies{
+		height: 40px;
+	}
+
+}
+
+@media screen and (max-width:600px){ 
+
+	nav ul li{
+		display: block;
+		display: none;
+	}
+	nav > ul > li.menu:nth-child(1){
+		display: block;
+	}
+
+	div.Integrante{
+		width: 40vw;
+	}
+	h1.title{
+		font-size: 6em;
+		background-size: 90px, 90px;
+	}
+	h3.slogan{
+		font-size: 2em;
+		margin-top: 100px;
+	}
+	img.capturas{
+		width: 35%;
+		
+	}
+	article button.ButtonPYM{
+		width: 40%;
+	}
+	article button.ButtonPYM:hover{
+		width: 40%;
+	}
+	article strong.sloganPYM{
+		font-size: 1em;
+	}
+	article p.textoPYM{
+		position: relative;
+		font-size: 0.8em;
+	}
+
+}
+
+@media screen and (max-width:480px){
+
+	div.Integrante{
+		width: 60vw;
+		height: 250px;
+	}
+	h1.title{
+		font-size: 5em;
+		background-size: 70px, 70px;
+	}
+	h3.slogan{
+		font-size: 2em;
+		margin-top: 100px;
+	}
+	div.Integrante > img{
+		width: 180px;
+		height: 180px;
+		border-radius: 100%;
+	}
+	img.capturas{
+		width: 40%;
+		margin: 5% 30%;
+		display: block;		
+	}
+	img.captura3{
+		display: none;
+	}
+	article button.ButtonPYM{
+		width: 60%;	
+	}
+	article button.ButtonPYM:hover{
+		width: 60%;
+	}
+	div#cookies{
+		height: 60px;
+	}
+}
+
+@media screen and (max-width:360px){
+
+	nav ul{
+		position: relative;
+	}
+	h1.title{
+		font-size: 4em;
+		background-size: 60px, 60px;
+	}
+	h3.slogan{
+		font-size: 1.7em;
+		top: 20%;
+	}
+	article button.ButtonPYM{
+		width: 60%;	
+	}
+
+	div.Integrante{
+		width: 60vw;
+		height: 250px;
+		display: block;
+		margin: 10px auto 0;
+	}
+	div.Integrante > img{
+		width: 150px;
+		height: 150px;
+		border-radius: 100%;
+	}
+	footer div a img{	
+		width: 70px;
+		height: 70px;
+	}
+	
+		
+}
+
+
+/*********************************************<Perdon, fui yo.>*********************************************************/
+
+#angelport{
+	text-decoration: none;
+	transition: 0.6s;
+}
+
+#angelport:hover{
+	transition: 0.6s;
+	transform: scale(1.3);
+}

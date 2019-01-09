@@ -1,0 +1,181 @@
+body,
+html{
+	font-family: Arial;
+	height: 100%;
+	width: 100%;
+	max-height: 1000px;
+	max-width: 3000px; 
+	margin: 0 auto; 
+	text-align: center;
+	background: #EDEDED;
+}
+h1{
+	font-size: 2em;
+}
+nav > ul {
+	background: rgba(0, 0, 0,0.8);
+ 	padding: 0;
+ 	margin: 0;
+ 	top: 0;
+ 	left: 0;
+    width: 100%;
+    list-style-type: none;
+    height: 50px;
+}
+
+table{
+	margin: 10px auto;
+	background: #FFFFFF;
+}
+tr,td{
+	margin: 0px;
+	border: none;
+	border: 1px solid black;
+}
+td{
+	width: 50px;
+	margin: 0;
+}
+td.titulo{
+	width: 150px;
+	margin: 0px;
+}
+tr.titulos{
+	background: #1C8400;
+	color: white;
+}
+tr{
+	margin: 0px;
+}
+tr.color_y{
+	background: #E3E3E3;
+}
+td > input{
+	border: none;
+	text-align: center;
+	width: 100%;
+	min-width: 120px;
+}
+form > input{
+	padding: 10px 20px;
+	font-size: 1em;
+}
+form#Eliminar{
+	font-size: 1em;
+	background: #C4C4C4;
+	margin-top: 15%;
+	position: relative;
+	width: 100%;
+}
+
+#back{
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	float: left;
+	position: absolute;
+	padding: 14px 20px;
+	background: #232222;
+	left: 0;
+
+}
+button{
+	padding: 10px 20px;
+	border: outset 3px #FFF;
+	background: #FFF;
+	margin: 2%;
+}
+
+
+td.td_cuenta{
+	background: #1C8400;
+	color: white
+}
+td.td_nombre{
+	width: 250px;
+	
+}
+td.color{
+	width: 100px;	
+}
+div.Alumnos_registrados{
+	width: 100%;
+	padding: 20px 0px 50px 0px;
+	background: #5FC55F;
+	font-size: 1em;
+	border: solid black;
+	border-width: 2px 0px 1px 0px;
+}
+div.primera{
+	width: 100%;
+	padding: 20px 0px 50px 0px;
+	background: #FFF;
+	font-size: 1em;
+	border: solid black;
+	border-width: 1px 0px 1px 0px;
+}
+div.segunda{
+	width: 100%;
+	padding: 20px 0px 50px 0px;
+	background: #FFF;
+	font-size: 1em;
+	border: solid black;
+	border-width: 1px 0px 1px 0px;
+}
+div.tercera{
+	width: 100%;
+	padding: 20px 0px 50px 0px;
+	background: #FFF;
+	font-size: 1em;
+	border: solid black;
+	border-width: 1px 0px 1px 0px;
+}
+p.tabla_title{
+	font-size: 1.8em;
+}
+input[value='Insertar Alumno']{
+	margin: 10px;
+	padding: 10px 20px;
+	background: #1C8400;
+	color: white;
+}
+input[value='Insertar Alumno']:hover{
+	cursor: pointer;
+}
+input[value='Insertar Calificación']{
+	padding: 10px 20px;
+	border: none;
+	background: #59EDC1;
+	color: white;
+}
+input[value='Insertar Calificación']:hover{
+	cursor: pointer;
+}
+button[onclick='abrirEditar()']{
+	padding: 10px 20px;
+	border: none;
+	background: #DF33E1;
+	color: white;
+}
+button[onclick='abrirEditar()']:hover{
+	cursor: pointer;
+}
+button[onclick='abrirEditar2()']{
+	padding: 10px 20px;
+	border: none;
+	background: #DF33E1;
+	color: white;
+}
+button[onclick='abrirEditar2()']:hover{
+	cursor: pointer;
+}
+button[onclick='abrirEditar3()']{
+	padding: 10px 20px;
+	border: none;
+	background: #DF33E1;
+	color: white;
+}
+button[onclick='abrirEditar3()']:hover{
+	cursor: pointer;
+}

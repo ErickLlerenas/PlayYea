@@ -1,0 +1,16 @@
+html{
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+}
+
+body{
+    background: #2E706F;
+}
+
+#io{
+    margin-top: 6%; 
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}

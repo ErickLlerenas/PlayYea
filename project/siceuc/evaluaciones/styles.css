@@ -1,0 +1,93 @@
+body,
+html{
+	font-family: 'Roboto',sans-serif;
+	height: 100%;
+	width: 100%;
+	max-height: 1000px;
+	max-width: 3000px; 
+	margin: 0 auto; 
+	text-align: center;
+	background: #F8F8F8;
+}
+h1{
+	font-size: 2em;
+}
+nav > ul {
+	background: rgba(0, 0, 0,0.8);
+ 	padding: 0;
+ 	margin: 0;
+ 	top: 0;
+ 	left: 0;
+    width: 100%;
+    list-style-type: none;
+    height: 50px;
+}
+
+#logo{
+	transition: 0.6s;
+}
+
+#logo:hover{
+	transition: 0.6s;
+	transform: scale(0.6);
+}
+
+table{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	background: #FFFFFF;
+	font-family: Arial;
+}
+tr,td{
+	border: 1px solid black;
+}
+input{
+	border: none;
+	text-align: center;
+	width: 150px;
+}
+
+#back{
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	float: left;
+	margin-top: 10px;
+}
+
+#insert{
+	margin-top: 5px;
+	width: 100px;
+	height: 20px;
+	border: 0px;
+	background: #47BDD2;
+	color: white;
+	transition: 0.6s;
+}
+
+#insert:hover{
+	transition: 0.6s;
+	width: 120px;
+}
+
+#del{
+	margin-top: 10px;
+	text-align: center;
+}
+
+#materias{
+	border-color: white;
+	background: #7FC3A1;
+	color: white;
+	text-align: center;
+}
+
+#calDB{
+	text-align: center;
+}
+
+#addCal{
+	
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SCE Log In</title>
+	<link rel="shortcut icon" href="../img/Logo.png">
+	<link rel="stylesheet" href="normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="https://playyea.com"><img src="../img/Logo.png" id="logo" alt="logo" width="50px" height="50px"></a></li>
+		</ul>
+	</nav>
+	<form action="login.php" method="POST">
+		<h1>SCE Play Yea</h1>
+		<input type="text" placeholder="Enter your account number" name="input_account" maxlength="8" autocomplete="off" onkeypress='return event.charCode >= 48 && event.charCode <= 57' minlength="8">
+		<input type="password" placeholder="Enter your password" name="input_password" maxlength="20">
+		<button type="submit" id="logInBtn">Log In</button>
+	</form>
+	<button id="signUp"> <a href="http://playyea.com/signup">Don't have an account yet? Sign Up</a></button>
+	<br>
+	
+	
+
+</body>
+</html>

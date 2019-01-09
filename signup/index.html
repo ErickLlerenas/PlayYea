@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<link rel="shortcut icon" href="../img/Logo.png">
+	<script src="js/js.js"></script>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="https://playyea.com"><img src="../img/Logo.png" id="logo" alt="logo" width="50px" height="50px"></a></li>
+		</ul>
+	</nav>
+
+	<form action="php/php.php" method="post">
+
+		<h1>Sign Up</h1>
+
+		<input type="text" placeholder="Account number" name="input_account" maxlength="8" minlength="8" id="account"  autocomplete="off" onkeypress='return event.charCode >= 48 && event.charCode <= 57' required>
+		
+		<input type="password" placeholder="New password" name="input_password" minlength="5" maxlength="20" id="password"  class="password" required>
+
+		<input type="password" placeholder="Verify password" name="input_verify_password" minlength="5" maxlength="20" id="password2"  class="password" required>
+		
+		<input type="text" placeholder="Full name" name="input_name" maxlength="40" id="name" autocomplete="off" required>
+
+		<input type="email" name="input_email" placeholder="E-mail"  id="email" required>
+
+		<button type="submit" onfocus="comprobar()" onclick="return comprobar()" id="logInBtn">Sign Up</button>
+
+		<h3 id="no"></h3>
+
+	</form>
+</body>
+</html>

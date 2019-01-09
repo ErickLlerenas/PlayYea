@@ -1,0 +1,211 @@
+body,
+html{
+	font-family: 'Roboto',sans-serif;
+	height: 100%;
+	width: 100%;
+	max-height: 1000px;
+	max-width: 3000px; 
+	margin: 0 auto; 
+	text-align: center;
+	background: #F8F8F8;
+}
+h1{
+	font-size: 2em;
+}
+nav > ul {
+	background: rgba(0, 0, 0,0.8);
+ 	padding: 0;
+ 	margin: 0;
+ 	top: 0;
+ 	left: 0;
+    width: 100%;
+    list-style-type: none;
+    height: 50px;
+}
+/***********************************************/
+article{
+	text-align: left;
+	background: #07781A;
+	width: 20%;
+	height: 100%;
+}
+a.menu{
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+	padding: 20px 20px;;
+}
+a.menu:hover{
+	background: #143E04;
+}
+img#logo{
+	transition: 0.6s;
+}
+
+img#logo:hover{
+	transition: 0.6s;
+	transform: scale(0.6);
+}
+
+div.info{
+	position: absolute;
+	top: 15%;
+	margin: 0% 40%;
+	width: 350px;
+	text-align: center;
+}
+img.user{
+	height: 150px;
+	width: 150px;
+}
+img[alt="Usuarioimg"]{
+	border-radius: 100%;
+
+}
+
+/********************<Config>*********************/
+input.input{
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+	width: 300px;
+	height: 40px;
+	position: relative;
+	font-size: 1em;
+}
+table.table{
+	margin: 0 auto;
+	text-align: center;
+}
+p.right{
+	text-align: right;
+}
+img.imgup{
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+}
+div.editar{
+	background: #4B4E4B;
+	color: white;
+	width: 500px;
+	margin: 0 auto;
+	padding: 50px;
+}
+#back{
+	text-decoration: none;
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	float: left;
+	position: absolute;
+	padding: 14px 20px;
+	background: #232222;
+	left: 0;
+}
+div.fotoBoton{
+	margin: 20px 0px;
+	background: #07D5B5;
+	color: white;
+	width: 200px;
+	position: relative;
+	vertical-align: middle;
+	font-size: 1.2em;
+	left: 100px;
+	padding: 12px 0px;
+}
+input[type="file"]{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	opacity: 0;
+	font-size: 0em;
+}
+input[value="Cargar"]{
+	position: absolute;
+	left: 220px;
+	background: #00AAA4;
+	padding: 12px 20px;
+	border: none;
+	color: white;
+	top: 0px;
+}
+
+input[type="file"]:hover{
+	cursor: pointer;
+}
+input[value="Cargar"]:hover{
+	cursor: pointer;
+}
+
+input[value="Guardar"]{
+	padding: 12px 20px;
+	background: #00B81F;
+	color: white;
+	border: none;
+	font-size: 1.2em;
+	position: absolute;
+	top: 70px;
+	left: 46%;
+	display: block;
+	margin: 0 auto;
+}
+input[value="Guardar"]:hover{
+	cursor: pointer;
+}
+input.eliminar_boton{
+	background: red;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	margin-top: 40px;
+
+}
+input.eliminar_boton:hover{
+	cursor: pointer;
+}
+/*********************</Config<********************/
+@media screen and (max-width: 700px){
+	article{
+		text-align: left;
+		background: #07781A;
+		width: 100%;
+		height: 58px;
+		position: absolute;
+	}
+	article a.menu{
+		display: inline-block;
+		margin: 0;
+		padding: 20px 30px;
+	}
+	div.info{
+		position: absolute;
+		margin: 50px auto;
+		
+	}
+	
+}
+
+@media screen and (max-width: 500px){
+
+	article a.menu{
+		padding: 20px 15px;
+	}
+	input.input{
+	width: 90%;
+	}
+	table.table{
+	width: 90%;
+	}
+}
+@media screen and (max-width: 400px){
+
+	article a.menu{
+		padding: 20px 0px;
+	}
+	
+}

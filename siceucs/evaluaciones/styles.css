@@ -1,0 +1,68 @@
+body,
+html{
+	font-family: Arial;
+	height: 100%;
+	width: 100%;
+	max-height: 1000px;
+	max-width: 3000px; 
+	margin: 0 auto; 
+	text-align: center;
+	background: #EDEDED;
+}
+h1{
+	font-size: 2em;
+}
+nav > ul {
+	background: rgba(0, 0, 0,0.8);
+ 	padding: 0;
+ 	margin: 0;
+ 	top: 0;
+ 	left: 0;
+    width: 100%;
+    list-style-type: none;
+    height: 50px;
+}
+
+table{
+	width: 80%;
+	margin: 0 auto;
+	background: #FFFFFF;
+}
+tr,td{
+	border: 1px solid black;
+}
+td > input{
+	border: none;
+	text-align: center;
+	width: 150px;
+}
+form > input{
+	padding: 10px 20px;
+	font-size: 1em;
+}
+form#Eliminar{
+	font-size: 1em;
+	background: #C4C4C4;
+	margin-top: 15%;
+	position: relative;
+	width: 100%;
+}
+
+#back{
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	float: left;
+	position: absolute;
+	padding: 14px 20px;
+	background: #232222;
+	left: 0;
+
+}
+button{
+	padding: 10px 20px;
+	border: outset 3px #FFF;
+	background: #FFF;
+	margin: 2%;
+}

@@ -1,0 +1,51 @@
+body,
+html{
+	font-family: 'Roboto',sans-serif;
+	height: 100%;
+	width: 100%;
+	max-height: 1000px;
+	max-width: 3000px; 
+	margin: 0 auto; 
+	text-align: center;
+	background: #F8F8F8;
+}
+
+h1{
+	font-size: 2em;
+}
+
+nav > ul {
+	background: rgba(0, 0, 0,0.8);
+ 	padding: 0;
+ 	margin: 0;
+ 	top: 0;
+ 	left: 0;
+    width: 100%;
+    list-style-type: none;
+    height: 50px;
+}
+
+#logo{
+	transition: 0.6s;
+}
+
+#logo:hover{
+	transition: 0.6s;
+	transform: scale(0.6);
+}
+/***********************************************/
+article{
+	text-align: left;
+	background: #32DB99;
+	width: 20%;
+	height: 100%;
+}
+a.menu{
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+	padding: 20px 20px;;
+}
+a.menu:hover{
+	background: #143E04;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="google-signin-client_id" content="902200898055-l39t05vj9gv2vlrg26gel32i12ja6ee3.apps.googleusercontent.com">
+	<title>SCE Log In</title>
+	<link rel="shortcut icon" href="../img/Logo.png">
+	<link rel="stylesheet" href="normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="https://playyea.com"><img src="../img/Logo.png" id="logo" alt="logo" width="50px" height="50px"></a></li>
+		</ul>
+	</nav>
+	<form action="login.php" method="POST">
+		<h1>SCE Play Yea</h1>
+		<input type="text" placeholder="Enter your username" name="input_username" maxlength="20" autocomplete="off">
+		<input type="password" placeholder="Enter your password" name="input_password" maxlength="20">
+		<button type="submit" id="logInBtn">Log In</button>
+	</form>
+	<button id="signUp"> <a href="http://playyea.com/signUp">Forgot Password?</a></button>
+	<br>
+	<button id="signUp"> <a href="http://playyea.com/signUp">Don't have an account yet? Sign Up</a></button>
+	<br>
+	<div class="g-signin2" data-onsuccess="onSignIn"></div>
+	
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+</body>
+</html>
